@@ -23,8 +23,8 @@ if(path.exists("data.dat") == True):
     while(x < 1): 
         pyautogui.moveTo(midx, midy, duration = 1)
         print("Moving mouse to (", midx, ",", midy, ")")
-        pyautogui.moveTo(midx, midy+100, duration = 1)
-        print("Moving mouse to (", midx, ",", midy+100, ")")
+        pyautogui.moveTo(midx, midy+500, duration = 1)
+        print("Moving mouse to (", midx, ",", midy+500, ")")
                 
 
 
